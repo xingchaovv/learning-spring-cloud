@@ -1,0 +1,9 @@
+spring:
+  application:
+    # 应用名称
+    name: lsc-user-api
+  cloud:
+    nacos:
+      discovery:
+        # Nacos 服务发现
+        server-addr: 127.0.0.1:8848
