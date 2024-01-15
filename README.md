@@ -7,8 +7,20 @@ http://localhost:8848/nacos
 
 ## user-api 项目
 
-Spring Boot Profile dev1 
-开启微服务应用 user-api 本地实例1
+微服务应用 user-api
 
-Spring Boot Profile dev2
-开启微服务应用 user-api 本地实例2
+POM 依赖引入 Nacos 服务发现 starter（Nacos Discovery） 
+application.yml 配置 Discovery 地址
+
+IDEA 配置 user-api-dev1 启动：本地实例1
+IDEA 配置 user-api-dev2 启动：本地实例2
+
+## order-api 项目
+
+微服务应用 order-api
+
+POM 依赖引入 Nacos 服务发现 starter（Nacos Discovery）
+application.yml 配置 Discovery 地址
+
+IDEA 配置 order-api-dev1 启动：本地实例1
+
