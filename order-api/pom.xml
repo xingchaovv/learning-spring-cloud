@@ -37,10 +37,17 @@
 			<version>2021.0.5.0</version>
 		</dependency>
 
+		<!-- 服务通讯 OpenFeign Starter -->
 		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+		<!-- 负载均衡器 LoadBalancer Starter -->
+		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-loadbalancer -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-loadbalancer</artifactId>
 		</dependency>
 
 	</dependencies>
