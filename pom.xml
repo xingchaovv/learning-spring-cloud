@@ -17,8 +17,10 @@
 		<java.version>11</java.version>
 	</properties>
 	<modules>
+		<module>gateway-api</module>
+		<module>order-api</module>
 		<module>user-api</module>
-	</modules>
+    </modules>
 
 	<dependencyManagement>
 		<dependencies>

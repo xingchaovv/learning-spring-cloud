@@ -5,6 +5,12 @@ Spring Cloud 学习项目。
 ## Nacos 本地管理地址
 http://localhost:8848/nacos
 
+## gateway-api 项目
+
+微服务应用 gateway-api 网关接口
+
+
+
 ## user-api 项目
 
 微服务应用 user-api
